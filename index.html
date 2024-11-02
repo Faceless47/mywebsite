@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erstaunliche Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner erstaunlichen Webseite!</h1>
+        <nav>
+            <a href="#section1">Über Uns</a>
+            <a href="#section2">Unsere Projekte</a>
+            <a href="#section3">Kontakt</a>
+        </nav>
+    </header>
+    
+    <section id="section1">
+        <h2>Über Uns</h2>
+        <p>Wir sind ein Team von kreativen Köpfen, die daran arbeiten, die Welt zu verändern.</p>
+    </section>
+    
+    <section id="section2">
+        <h2>Unsere Projekte</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Projekt 1</h3>
+                <p>Beschreibung des Projekts 1.</p>
+            </div>
+            <div class="card">
+                <h3>Projekt 2</h3>
+                <p>Beschreibung des Projekts 2.</p>
+            </div>
+            <div class="card">
+                <h3>Projekt 3</h3>
+                <p>Beschreibung des Projekts 3.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section3">
+        <h2>Kontakt</h2>
+        <p>Du kannst uns unter <a href="mailto: mahmud.das2004@gmail.com" style="color: #ffcc00;">mahmud der kranke bosshafte boss</a> erreichen.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Deine Webseite. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
